@@ -1,0 +1,699 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="org.openswing.swing.client.SaveButton" name="saveButton1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="title" type="java.lang.String" value="Filtro de Asesor"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel4" alignment="0" max="32767" attributes="1"/>
+                  <Component id="jTabbedPane1" alignment="1" pref="467" max="32767" attributes="1"/>
+                  <Component id="jButton1" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace pref="15" max="32767" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="218" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="1"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Mes">
+                <Property name="tabTitle" type="java.lang.String" value="Mes"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" alignment="0" pref="462" max="32767" attributes="1"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Selecciones el Mes y A&#xf1;o"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" max="-2" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" max="-2" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel5" linkSize="6" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel1" linkSize="6" min="-2" pref="119" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jComboBox1" min="-2" pref="135" max="-2" attributes="0"/>
+                                      <Component id="jComboBox2" min="-2" pref="135" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel6" linkSize="13" min="-2" pref="28" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="numericControl2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel4" linkSize="13" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="numericControl1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="1">
+                                  <Component id="jLabel7" linkSize="6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jComboBox3" min="-2" pref="135" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel8" linkSize="13" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="numericControl3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel9" linkSize="6" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jComboBox4" min="-2" pref="135" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel10" linkSize="13" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="numericControl4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="48" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel1" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="numericControl1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel5" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="numericControl2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="numericControl3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel7" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel9" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="numericControl4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="54" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mes de Cobro:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="A&#xf1;o:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mes de Pago de Comision:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="A&#xf1;o:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mes de Vigencia (Desde):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="A&#xf1;o:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mes de Vigencia (Hasta):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="A&#xf1;o:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="13">
+                        <StringItem index="0" value=" "/>
+                        <StringItem index="1" value="Enero"/>
+                        <StringItem index="2" value="Febrero"/>
+                        <StringItem index="3" value="Marzo"/>
+                        <StringItem index="4" value="Abril"/>
+                        <StringItem index="5" value="Mayo"/>
+                        <StringItem index="6" value="Junio"/>
+                        <StringItem index="7" value="Julio"/>
+                        <StringItem index="8" value="Agosto"/>
+                        <StringItem index="9" value="Septiembre"/>
+                        <StringItem index="10" value="Octubre"/>
+                        <StringItem index="11" value="Noviembre"/>
+                        <StringItem index="12" value="Diciembre"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox2">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="13">
+                        <StringItem index="0" value=" "/>
+                        <StringItem index="1" value="Enero"/>
+                        <StringItem index="2" value="Febrero"/>
+                        <StringItem index="3" value="Marzo"/>
+                        <StringItem index="4" value="Abril"/>
+                        <StringItem index="5" value="Mayo"/>
+                        <StringItem index="6" value="Junio"/>
+                        <StringItem index="7" value="Julio"/>
+                        <StringItem index="8" value="Agosto"/>
+                        <StringItem index="9" value="Septiembre"/>
+                        <StringItem index="10" value="Octubre"/>
+                        <StringItem index="11" value="Noviembre"/>
+                        <StringItem index="12" value="Diciembre"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox3">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="13">
+                        <StringItem index="0" value=" "/>
+                        <StringItem index="1" value="Enero"/>
+                        <StringItem index="2" value="Febrero"/>
+                        <StringItem index="3" value="Marzo"/>
+                        <StringItem index="4" value="Abril"/>
+                        <StringItem index="5" value="Mayo"/>
+                        <StringItem index="6" value="Junio"/>
+                        <StringItem index="7" value="Julio"/>
+                        <StringItem index="8" value="Agosto"/>
+                        <StringItem index="9" value="Septiembre"/>
+                        <StringItem index="10" value="Octubre"/>
+                        <StringItem index="11" value="Noviembre"/>
+                        <StringItem index="12" value="Diciembre"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox4">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="13">
+                        <StringItem index="0" value=" "/>
+                        <StringItem index="1" value="Enero"/>
+                        <StringItem index="2" value="Febrero"/>
+                        <StringItem index="3" value="Marzo"/>
+                        <StringItem index="4" value="Abril"/>
+                        <StringItem index="5" value="Mayo"/>
+                        <StringItem index="6" value="Junio"/>
+                        <StringItem index="7" value="Julio"/>
+                        <StringItem index="8" value="Agosto"/>
+                        <StringItem index="9" value="Septiembre"/>
+                        <StringItem index="10" value="Octubre"/>
+                        <StringItem index="11" value="Noviembre"/>
+                        <StringItem index="12" value="Diciembre"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.NumericControl" name="numericControl1">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="&quot;anoCobro&quot;" type="code"/>
+                    </Property>
+                    <Property name="maxCharacters" type="int" value="4"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.NumericControl" name="numericControl2">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="&quot;anoPago&quot;" type="code"/>
+                    </Property>
+                    <Property name="maxCharacters" type="int" value="4"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.NumericControl" name="numericControl3">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="&quot;anoVigenciaDesde&quot;" type="code"/>
+                    </Property>
+                    <Property name="maxCharacters" type="int" value="4"/>
+                  </Properties>
+                </Component>
+                <Component class="org.openswing.swing.client.NumericControl" name="numericControl4">
+                  <Properties>
+                    <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="&quot;anoVigenciaHasta&quot;" type="code"/>
+                    </Property>
+                    <Property name="maxCharacters" type="int" value="4"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Seleccione el rango de fechas"/>
+              </Border>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Rango de Fechas">
+                <Property name="tabTitle" type="java.lang.String" value="Rango de Fechas"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel14" max="32767" attributes="1"/>
+                          <Component id="jLabel13" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel12" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel11" alignment="0" pref="152" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dateControl1" linkSize="10" min="-2" pref="119" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="dateControl7" linkSize="10" alignment="0" max="32767" attributes="1"/>
+                              <Component id="dateControl5" linkSize="10" alignment="0" max="32767" attributes="1"/>
+                              <Component id="dateControl3" linkSize="10" alignment="0" min="-2" pref="119" max="-2" attributes="1"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="1" attributes="0">
+                              <Component id="dateControl8" linkSize="10" alignment="0" pref="133" max="32767" attributes="0"/>
+                              <Component id="dateControl6" linkSize="10" alignment="0" pref="133" max="32767" attributes="0"/>
+                              <Component id="dateControl4" linkSize="10" alignment="1" pref="133" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dateControl2" linkSize="10" alignment="0" min="-2" pref="133" max="-2" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="jLabel11" linkSize="8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel12" linkSize="8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel13" linkSize="8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel14" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dateControl1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dateControl2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dateControl4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dateControl3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dateControl6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dateControl5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dateControl7" linkSize="8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dateControl8" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="25" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="org.openswing.swing.client.DateControl" name="dateControl1">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;desdeFechaCobro&quot;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.DateControl" name="dateControl2">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;hastaFechaCobro&quot;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Desde:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hasta:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha de Cobro:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha de Pago de Comision:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha de Vigencia (Desde):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha de Vigencia (Hasta):"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.DateControl" name="dateControl3">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;desdeFechaPago&quot;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.DateControl" name="dateControl4">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;hastaFechaPago&quot;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.DateControl" name="dateControl5">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;desdeVigenciaDesde&quot;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.DateControl" name="dateControl6">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;hastaVigenciaDesde&quot;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.DateControl" name="dateControl7">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;desdeVigenciaHasta&quot;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.DateControl" name="dateControl8">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;hastaVigenciaHasta&quot;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Parametros de Filtrado"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="form1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="form1" min="-2" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="org.openswing.swing.form.client.Form" name="form1">
+          <Properties>
+            <Property name="VOClassName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="FiltroAsesor.class.getName()" type="code"/>
+            </Property>
+            <Property name="saveButton" type="org.openswing.swing.client.SaveButton" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="saveButton1"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="labelControl8" linkSize="5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="codLookupControl3" pref="388" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="labelControl9" linkSize="5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="codLookupControl4" pref="388" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="labelControl10" linkSize="5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="codLookupControl5" pref="388" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="labelControl12" linkSize="5" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="codLookupControl7" pref="388" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="codLookupControl3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelControl8" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="codLookupControl4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelControl9" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="codLookupControl5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelControl10" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="codLookupControl7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelControl12" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="org.openswing.swing.client.CodLookupControl" name="codLookupControl3">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;producto.nombre&quot;" type="code"/>
+                </Property>
+                <Property name="maxCharacters" type="int" value="10"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.LabelControl" name="labelControl8">
+              <Properties>
+                <Property name="label" type="java.lang.String" value="producto"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.LabelControl" name="labelControl9">
+              <Properties>
+                <Property name="label" type="java.lang.String" value="grupo"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.CodLookupControl" name="codLookupControl4">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;grupo.nombre&quot;" type="code"/>
+                </Property>
+                <Property name="maxCharacters" type="int" value="10"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.LabelControl" name="labelControl10">
+              <Properties>
+                <Property name="label" type="java.lang.String" value="asesor"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.CodLookupControl" name="codLookupControl5">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;asesor.nombreLargo&quot;" type="code"/>
+                </Property>
+                <Property name="maxCharacters" type="int" value="10"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.LabelControl" name="labelControl12">
+              <Properties>
+                <Property name="label" type="java.lang.String" value="zona"/>
+              </Properties>
+            </Component>
+            <Component class="org.openswing.swing.client.CodLookupControl" name="codLookupControl7">
+              <Properties>
+                <Property name="attributeName" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="&quot;tipoZona.nombre&quot;" type="code"/>
+                </Property>
+                <Property name="maxCharacters" type="int" value="10"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Filtrar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

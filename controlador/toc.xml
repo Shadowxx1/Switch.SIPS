@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+                     "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+
+<toc version="2.0">
+	<tocitem text="Modulo Personas">
+		<tocitem text="Persona Detail Frame" target="PersonasDetail" />
+		<tocitem text="Personas Grid Frame" target="PersonasGrid" />
+	</tocitem>
+	<tocitem text="Modulo Polizas">
+		<tocitem text="Modulo Recibos">
+			<tocitem text="Recibos Grid Frame" target="RecibosGrid" />
+		</tocitem>
+		<tocitem text="Polizas Grid Frame" target="PolizasGrid" />
+	</tocitem>
+	<tocitem text="Historia del Seguro" target="HistoriaSeguros" />
+	<tocitem text="Glosario de Seguros" target="GlosarioSeguros" />
+</toc>
